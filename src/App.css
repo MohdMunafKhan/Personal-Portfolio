@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation Bar*/
+
+.nav-panel{
+  border-bottom: 1px solid white;
+  position: sticky;
+  top: 0;
+}
+
+.nav-panel .nav-head{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-panel .nav-links{
+  font-size: 17px;
+  color: white;
+}
+
+.nav-panel .nav-links:hover{
+  color: #0b5ed7;
+  transition: all .40s ease;
+}
+
+/* Hero Section*/
+
+.hero-section{
+  padding-top: 60px;
+  background-color: rgba(3, 7, 18, 1);
+  padding-bottom: 80px;
+}
+
+.hero-section .hero-content h4{
+  font-size: 27px;
+  line-height: 1.5;
+}
+
+.hero-section .hero-content h1{
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+.hero-section .hero-content h3{
+  margin-bottom: 40px;
+}
+
+.hero-section .hero-content .cv-btn{
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 17px;
+  transition: all .40s ease;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+
+.hero-section .hero-content .cv-btn:hover{
+  background-color: #0b5ed7;
+  transform: translateY(-5px);
+}
+
+.hero-section .hero-content .loc{
+  width: 170px;
+  font-size: 18px;
+}
+
+.hero-section .hero-content .links1{
+  width: 100px;
+  
+}
+
+.hero-section .hero-content .links1 a{
+  color: white;
+  font-size: 20px;
+  transition: all 0.40s ease;
+}
+
+.hero-section .hero-content .links1 a:hover{
+  color: blue;
+  transform: translateY(-4px);
+}
+
+
+/*About Me Section*/
+.about-me{
+  background-color: rgba(17, 24, 39, 1);
+  padding: 40px 0 40px 0;
+}
+
+.about-me .about-img img{
+  width: 80%;
+  height: 400px;
+}
+
+.about-me .about-info{
+  font-size: 17px;
+  text-align: justify;
+}
+
+.about-me .about-info .contact-btn{
+  transition: all 0.40s ease;
+}
+
+.about-me .about-info .contact-btn:hover{
+  transform: translateY(-3px);
+}
+
+/* Skills Section*/
+.skill-set{
+  background-color: rgba(3, 7, 18, 1);
+  padding: 40px 0 40px 0;
+}
+
+.skill-set .skill-head p{
+  font-size: 20px;
+}
+
+.skill-set .skill{
+  margin-bottom: 30px;
+  background: rgba(17, 24, 39, 1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 200px;
+}
+
+.skill-set .skill img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-set .skill:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-set .skill:hover img{
+  transform: scale(1.1);
+}
+
+
+/* Experience Section*/
+
+.exp{
+  background-color: rgba(17, 24, 39, 1);
+  padding: 40px 0 40px 0;
+}
+
+.exp p{
+  font-size: 20px;
+}
+
+.exp .exp-box{
+  background-color: rgba(3, 7, 18, 1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.exp .exp-box .exp-img img{
+  width: 40%;
+}
+
+.exp .exp-box li{
+  font-size: 18px;
+}
+
+.exp .exp-box .exp-btn{
+  transition: all 0.40s ease;
+}
+
+.exp .exp-box .exp-btn:hover{
+  transform: translateY(-4px);
+}
+
+
+/* Project Section */
+
+.project{
+  background-color: rgba(3, 7, 18, 1);
+  padding: 40px 0 40px 0;
+}
+
+.project .project-head p{
+  font-size: 20px;
+}
+
+.project .project-box{
+  background-color: rgba(17, 24, 39, 1);
+  border-radius: 15px;
+}
+
+
+.project .project-box .project-box-img img{
+  width: 95%;
+  height: 275px;
+}
+
+.project .project-box .project-box-txt p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.project .project-box .project-box-txt a{
+  font-size: 20px;
+}
+
+.project .project-box .project-box-txt .project-box-skill p{
+  background-color: rgba(3, 7, 18, 1);
+}
+
+/* Contact Section */
+
+.contact{
+  background-color: rgba(17, 24, 39, 1);
+  padding: 40px 0 40px 0;
+}
+
+.contact p{
+  font-size: 20px;
+}
+
+.contact a{
+  font-size: 20px;
+  color: white;
+  transition: all 0.40s ease;
+}
+
+.contact a:hover{
+  color: blue;
+}
+
+
+/* Footer Section */
+
+footer p{
+  font-size: 20px;
+}
