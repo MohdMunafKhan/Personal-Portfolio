@@ -13,14 +13,14 @@ const Skills = () => {
     return (
         <section className="skill-set" id='skills'>
             <div className="container">
-                <div className="row mb-5">
+                <div className="row mx-auto mb-5">
                     <div className="col-12 text-center skill-head">
                         <h1>Skills</h1>
                         <p>These are the tools and technologies, I work with.</p>
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row mx-auto">
                     <div className="col-md-3 col-6 text-center">
                         <div className="skill">
                             <img src={html} alt="HTML" className='img-fluid' />

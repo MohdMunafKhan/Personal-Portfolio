@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section className="hero-section" id='hero-sec'>
       <div className="container">
-        <div className="row">
+        <div className="row mx-auto">
           <div className="col-12 hero-content">
             <h4 className='text-primary'>Hello</h4>
             <h1>I'm Mohd Munaf Khan</h1>
