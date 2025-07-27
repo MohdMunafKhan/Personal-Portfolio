@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.css';
 import proj1 from '../images/restro-img.png';
 import proj2 from '../images/gearup-auto-img.png';
-import proj3 from '../images/pathshala.png'
+import proj3 from '../images/pathshala.png';
+import proj4 from '../images/infomate-img.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
@@ -20,6 +21,28 @@ const Projects = () => {
 
         <div className="row mx-auto p-4 mb-3 project-box">
           <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
+            <img src={proj4} alt="project-image" className='img-fluid' />
+          </div>
+          <div className="col-md-6 project-box-txt">
+            <h3 className='text-center text-primary'>MyInfoMate</h3>
+            <p>MyInfoMate is a modern, responsive React-based web application that delivers quick and useful information through four integrated APIs. It provides real-time weather updates for Indian cities using the OpenWeatherMap API, movie details like posters, ratings, and release year via the TMDb API, upcoming Indian public holidays through the Calendarific API, and English word definitions, examples, and pronunciations using the Free Dictionary API. Designed with simplicity and accessibility in mind, it uses React JS and Bootstrap 5 for a clean and user-friendly interface.</p>
+
+            <div className="d-flex justify-content-center flex-wrap project-box-skill-2">
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-JS</p>
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>CSS3</p>
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap</p>
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>APIs</p>
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-Router</p>
+
+            </div>
+
+            <a href="https://my-info-mate.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
+          </div>
+        </div>
+
+        <div className="row mx-auto p-4 mb-3 project-box">
+          <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
             <img src={proj3} alt="project-image" className='img-fluid' />
           </div>
           <div className="col-md-6 project-box-txt">
@@ -27,12 +50,11 @@ const Projects = () => {
             <p>Pathshala is a fully responsive educational resource hub built using React JS, React-Bootstrap and Bootstrap 5. It offers free access to study materials for students and provides a platform for mentors to support the learning community. Key features include a membership form, donation options, and a contact page — all designed to showcase clean UI, form handling, routing, and frontend development skills.</p>
 
             <div className="d-flex justify-content-center flex-wrap project-box-skill-2">
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-JS</p>
               <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
               <p className='px-3 py-2 me-4 border border-primary rounded-pill'>CSS3</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap5</p>
-              <p className='px-3 py-2 border border-primary rounded-pill'>JavaScript</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-JS</p>
-              
+              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap</p>
+              <p className='px-3 py-2 border border-primary rounded-pill'>React-Router</p>
             </div>
 
             <a href="https://pathshala-edu-hub.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
