@@ -5,6 +5,7 @@ import html from '../images/html.png';
 import css from '../images/css.png';
 import js from '../images/js.png';
 import bootstrap from '../images/bootstrap.png';
+import tailwind from '../images/tailwind-img.jpg';
 import react from '../images/react.png';
 import sql from '../images/sql.png';
 import github from '../images/github.png';
@@ -43,6 +44,12 @@ const Skills = () => {
                         <div className="skill">
                             <img src={bootstrap} alt="BS" className='img-fluid' />
                             <h5>BootStrap 5</h5>
+                        </div>
+                    </div>
+                    <div className="col-md-3 col-6 text-center">
+                        <div className="skill">
+                            <img src={tailwind} alt="BS" className='img-fluid' />
+                            <h5>Tailwind CSS</h5>
                         </div>
                     </div>
                     <div className="col-md-3 col-6 text-center">
