@@ -5,6 +5,7 @@ import proj1 from '../images/restro-img.png';
 import proj2 from '../images/gearup-auto-img.png';
 import proj3 from '../images/pathshala.png';
 import proj4 from '../images/infomate-img.png';
+import proj5 from '../images/white-chillies.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
@@ -21,21 +22,27 @@ const Projects = () => {
 
         <div className="row mx-auto p-4 mb-3 project-box">
           <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
+            <img src={proj5} alt="project-image" className='img-fluid' />
+          </div>
+          <div className="col-md-6 project-box-txt">
+            <h3 className='text-center text-primary'>The White Chillies – Restaurant Website</h3>
+            <p><i>Tech Stack: React JS, Tailwind CSS, HTML, and CSS</i></p>
+            <p>- Developed a fully responsive restaurant website using React, featuring dynamic pages like Menu, Cart, Checkout, Reservation, and Contact.</p>
+            <p>- Integrated cart functionality with real-time updates, order processing, and user interaction through modals and form validation for a seamless online ordering experience.</p>
+
+            <a href="https://the-white-chillies.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
+          </div>
+        </div>
+
+        <div className="row mx-auto p-4 mb-3 project-box">
+          <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
             <img src={proj4} alt="project-image" className='img-fluid' />
           </div>
           <div className="col-md-6 project-box-txt">
-            <h3 className='text-center text-primary'>MyInfoMate</h3>
-            <p>MyInfoMate is a modern, responsive React-based web application that delivers quick and useful information through four integrated APIs. It provides real-time weather updates for Indian cities using the OpenWeatherMap API, movie details like posters, ratings, and release year via the TMDb API, upcoming Indian public holidays through the Calendarific API, and English word definitions, examples, and pronunciations using the Free Dictionary API. Designed with simplicity and accessibility in mind, it uses React JS and Bootstrap 5 for a clean and user-friendly interface.</p>
-
-            <div className="d-flex justify-content-center flex-wrap project-box-skill-2">
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-JS</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>CSS3</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>APIs</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-Router</p>
-
-            </div>
+            <h3 className='text-center text-primary'>MyInfoMate – Multi-API React Web App</h3>
+            <p><i>Tech Stack: React JS, HTML5, CSS3, Bootstrap 5, Axios, and API's</i></p>
+            <p>- MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
+            <p>- MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
 
             <a href="https://my-info-mate.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
           </div>
@@ -47,15 +54,9 @@ const Projects = () => {
           </div>
           <div className="col-md-6 project-box-txt">
             <h3 className='text-center text-primary'>Pathshala Education Hub - Free Learning Resources Website</h3>
-            <p>Pathshala is a fully responsive educational resource hub built using React JS, React-Bootstrap and Bootstrap 5. It offers free access to study materials for students and provides a platform for mentors to support the learning community. Key features include a membership form, donation options, and a contact page — all designed to showcase clean UI, form handling, routing, and frontend development skills.</p>
-
-            <div className="d-flex justify-content-center flex-wrap project-box-skill-2">
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>React-JS</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>CSS3</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap</p>
-              <p className='px-3 py-2 border border-primary rounded-pill'>React-Router</p>
-            </div>
+            <p><i>Tech Stack: React JS, HTML5, CSS3, Bootstrap 5 and React-Router</i></p>
+            <p>Pathshala is a responsive educational hub built with React JS, React-Bootstrap, and Bootstrap 5, offering free study materials and mentor support.</p>
+            <p>It features a clean UI with components like a membership form, donation options, and contact page, highlighting form handling, routing, and frontend skills.</p>
 
             <a href="https://pathshala-edu-hub.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
           </div>
@@ -67,35 +68,14 @@ const Projects = () => {
           </div>
           <div className="col-md-6 project-box-txt">
             <h3 className='text-center text-primary'>GearUp Auto - Car Website</h3>
-            <p>I developed a responsive second-hand car buy-and-sell website using HTML, CSS, JavaScript, and Bootstrap. The website includes essential features such as a Home page, Buy Car page, Sell Car page, EMI Calculator, and FAQ section. I focused on delivering a smooth user experience by implementing intuitive navigation and interactive tools to help users explore car options and understand financing easily.</p>
-
-            <div className="d-flex justify-content-center flex-wrap project-box-skill-2">
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>CSS3</p>
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>Bootstrap5</p>
-              <p className='px-3 py-2 border border-primary rounded-pill'>JavaScript</p>
-            </div>
+            <p><i>Tech Stack: HTML5, CSS3, Bootstrap 5 and JavaScript</i></p>
+            <p>Developed a responsive second-hand car buy-and-sell website using HTML, CSS, JavaScript, and Bootstrap, featuring Home, Buy Car, Sell Car, EMI Calculator, and FAQ pages.</p>
+            <p>Emphasized smooth user experience with intuitive navigation and interactive tools for exploring car options and understanding financing.</p>
 
             <a href="https://gearup-auto.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
           </div>
         </div>
 
-        <div className="row mx-auto p-4 mb-5 project-box">
-          <div className="col-md-6 col-12 text-center pt-3 mb-3 project-box-img">
-            <img src={proj1} alt="project-image" className='img-fluid' />
-          </div>
-          <div className="col-md-6 project-box-txt">
-            <h3 className='text-center text-primary'>The White Chillies - Restaurant Website</h3>
-            <p>I developed a restaurant website using HTML5 and CSS3, featuring key sections like Home, Menu, Order, and Contact pages. The site was designed with a clean and user-friendly interface using custom CSS to enhance layout and visual appeal. By following front-end best practices, I improved overall functionality and performance, while also identifying opportunities for future enhancements such as responsive design for better accessibility across devices.</p>
-
-            <div className="d-flex justify-content-center flex-wrap project-box-skill-1">
-              <p className='px-3 py-2 me-4 border border-primary rounded-pill'>HTML5</p>
-              <p className='px-3 py-2 border border-primary rounded-pill'>CSS3</p>
-            </div>
-
-            <a href="https://github.com/MohdMunafKhan/The-White-Chillies" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
-          </div>
-        </div>
       </div>
     </section>
   )
