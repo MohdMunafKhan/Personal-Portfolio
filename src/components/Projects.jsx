@@ -27,8 +27,8 @@ const Projects = () => {
           <div className="col-md-6 project-box-txt">
             <h3 className='text-center text-primary mb-3'>The White Chillies – Restaurant Website</h3>
             <p className='text-center text-danger'><i>Tech Stack: React JS, Tailwind CSS, HTML, and CSS</i></p>
-            <p>- Developed a fully responsive restaurant website using React, featuring dynamic pages like Menu, Cart, Checkout, Reservation, and Contact.</p>
-            <p>- Integrated cart functionality with real-time updates, order processing, and user interaction through modals and form validation for a seamless online ordering experience.</p>
+            <p>Developed a fully responsive restaurant website using React, featuring dynamic pages like Menu, Cart, Checkout, Reservation, and Contact.</p>
+            <p>Integrated cart functionality with real-time updates, order processing, and user interaction through modals and form validation for a seamless online ordering experience.</p>
 
             <a href="https://the-white-chillies.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
           </div>
@@ -41,8 +41,8 @@ const Projects = () => {
           <div className="col-md-6 project-box-txt">
             <h3 className='text-center text-primary mb-3'>MyInfoMate – Multi-API React Web App</h3>
             <p className='text-center text-danger'><i>Tech Stack: React JS, HTML5, CSS3, Bootstrap 5, Axios, and API's</i></p>
-            <p>- MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
-            <p>- MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
+            <p>MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
+            <p>MyInfoMate is a responsive React web app that integrates four APIs to offer real-time weather updates, movie details, Indian public holidays, and English word definitions.</p>
 
             <a href="https://my-info-mate.netlify.app/" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
           </div>

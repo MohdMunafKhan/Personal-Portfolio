@@ -19,12 +19,12 @@ const About = () => {
                         <img src={Munaf} alt="myImage" className='img-fluid border border-3 border-primary rounded-circle' />
                     </div>
                     <div className="col-md-6 pt-2 about-info">
-                        <i>Hii, I am Mohd Munaf Khan!!!</i>
-                        <p>I’m a passionate Frontend Developer with a strong foundation in HTML, CSS, JavaScript, React, and SQL. Currently pursuing my MCA at Jamia Hamdard, I’ve had the opportunity to build responsive, user-friendly websites and gained practical experience during my internship by developing a fully functional live project.</p>
+                        <i className='text-primary'>Hii, I am Mohd Munaf Khan!!!</i>
+                        <p>I am a Web Developer, recently graduated with a Master of Computer Applications (MCA), and available to join immediately. With strong expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, and MySQL, I specialize in crafting responsive, user-friendly, and visually appealing web applications.</p>
 
-                        <p>My journey in web development began during my academic years, and ever since, I’ve been driven by a curiosity to learn and a desire to create. I’m constantly exploring new tools and technologies, including Angular and Tailwind CSS, to enhance my skill set and stay updated with industry trends.</p>
+                        <p>I am proficient in frontend development and currently exploring Node.js (Backend Development) and Next.js to grow into a Full Stack Developer. I am looking for an opportunity to start my career as a Frontend Developer or a Web Developer.</p>
 
-                        <p>I enjoy turning ideas into interactive digital experiences and am always eager to contribute clean, efficient code in collaborative and fast-paced environments.</p>
+                        <p>I am open to both office-based roles and remote opportunities, bringing flexibility and adaptability to any team. I am eager to apply my knowledge, learn continuously, and create modern web solutions that blend functionality with creativity.</p>
 
                         <Button href='#connect' className="contact-btn mt-4">Contact Me</Button>
                     </div>

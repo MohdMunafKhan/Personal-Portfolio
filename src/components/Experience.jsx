@@ -22,7 +22,7 @@ const Experience = () => {
                     <img src={exp} alt="cognifyz" className='img-fluid rounded-circle'/>
                 </div>
                 <div className="col-md-6 col-12 mb-3 exp-text">
-                    <h4>Frontend Developer Intern</h4>
+                    <h4 className='text-primary'>Frontend Developer Intern</h4>
                     <ul>
                         <li>Developed responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap.</li>
                         <li>Fetched and displayed dynamic content by integrating REST APIs into project components.</li>

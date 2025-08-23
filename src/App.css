@@ -228,10 +228,44 @@ body {
   background-color: rgba(3, 7, 18, 1);
 }
 
+/* Certification Section*/
+
+.certification{
+  background-color: rgba(17, 24, 39, 1);
+  padding: 40px 0 40px 0;
+}
+
+.certification p{
+  font-size: 20px;
+}
+
+.certification .certification-box{
+  background-color: rgba(3, 7, 18, 1);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.certification .certification-box .certification-img img{
+  width: 30%;
+  height: 125px;
+}
+
+.certification .certification-box li{
+  font-size: 18px;
+}
+
+.certification .certification-box .certification-btn{
+  transition: all 0.40s ease;
+}
+
+.certification .certification-box .certification-btn:hover{
+  transform: translateY(-4px);
+}
+
 /* Contact Section */
 
 .contact{
-  background-color: rgba(17, 24, 39, 1);
+  background-color: rgba(3, 7, 18, 1);
   padding: 40px 0 40px 0;
 }
 
