@@ -4,7 +4,7 @@ import '../App.css';
 import { Button } from 'react-bootstrap';
 import cerImg1 from '../images/udemy.jpg';
 import cerImg2 from '../images/coursera.jpg';
-import certificate1 from '../files/Frontend-certification.pdf';
+import certificate1 from '../files/Frontend-Certification.pdf';
 import certificate2 from '../files/SQL-Certification.pdf';
 
 const Certification = () => {
