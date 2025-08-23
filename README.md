@@ -1,4 +1,4 @@
-# 💼 personal_portfolio
+#  Personal Portfolio
 
 This is my personal portfolio website, showcasing my skills, projects, and experience as a frontend developer. It is a single-page responsive web app built with **React.js**. The portfolio is designed to give visitors a comprehensive overview of my technical background, interests, and key accomplishments.
 
