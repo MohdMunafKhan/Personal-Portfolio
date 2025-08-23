@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="col-12 hero-content">
             <h4 className='text-primary'>Hello</h4>
             <h1>I'm Mohd Munaf Khan</h1>
-            <h3>Frontend Web Developer</h3>
+            <h3>Web Developer</h3>
 
             <a href={resume} download="MunafKhan_Frontend_Developer_Resume.pdf" className='cv-btn'>Download CV</a>
 

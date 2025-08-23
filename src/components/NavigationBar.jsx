@@ -23,6 +23,7 @@ const NavigationBar = () => {
                             <Nav.Link href="#skills" onClick={handleClick} className='nav-links me-3'>Skills</Nav.Link>
                             <Nav.Link href="#experience" onClick={handleClick} className='nav-links me-3'>Experience</Nav.Link>
                             <Nav.Link href="#work" onClick={handleClick} className='nav-links me-3'>Projects</Nav.Link>
+                            <Nav.Link href="#certificate" onClick={handleClick} className='nav-links me-3'>Certifications</Nav.Link>
                             <Nav.Link href="#connect" onClick={handleClick} className='nav-links'>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
