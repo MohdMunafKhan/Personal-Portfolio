@@ -20,11 +20,13 @@ const About = () => {
                     </div>
                     <div className="col-md-6 pt-2 about-info">
                         <i className='text-primary'>Hii, I am Mohd Munaf Khan!!!</i>
-                        <p>I am a Web Developer, recently graduated with a Master of Computer Applications (MCA), and available to join immediately. With strong expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, and MySQL, I specialize in crafting responsive, user-friendly, and visually appealing web applications.</p>
+                        <p>I am a Frontend Web Developer with a strong foundation in modern web technologies and a Master of Computer Applications (MCA) degree. I specialize in building responsive, user-friendly, and visually appealing web interfaces using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, and MySQL.</p>
 
-                        <p>I am proficient in frontend development and currently exploring Node.js (Backend Development) and Next.js to grow into a Full Stack Developer. I am looking for an opportunity to start my career as a Frontend Developer or a Web Developer.</p>
+                        <p>Currently, I am working as a Frontend Developer, where I focus on transforming ideas and designs into functional, interactive, and performance-driven web experiences. I enjoy writing clean, maintainable code and improving UI/UX through modern frameworks and best practices.</p>
 
-                        <p>I am open to both office-based roles and remote opportunities, bringing flexibility and adaptability to any team. I am eager to apply my knowledge, learn continuously, and create modern web solutions that blend functionality with creativity.</p>
+                        <p>Alongside my current role, I am actively exploring Node.js and Next.js to expand my skill set toward Full Stack Development.</p>
+
+                        <p>I am open to exciting opportunities — both office-based and remote — where I can contribute, grow further, and build meaningful digital products that blend functionality with creativity.</p>
 
                         <Button href='#connect' className="contact-btn mt-4">Contact Me</Button>
                     </div>

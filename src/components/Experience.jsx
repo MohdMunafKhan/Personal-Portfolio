@@ -18,22 +18,21 @@ const Experience = () => {
         </div>
         <div className="container exp-box">
             <div className="row mx-auto">
-                <div className="col-md-3 mb-3 exp-img">
-                    <img src={exp} alt="cognifyz" className='img-fluid rounded-circle'/>
+                <div className="col-md-4 mb-3 exp-det">
+                    <h5 className='mb-2'>Sept 2025 - Present</h5>
+                    <h6>New Delhi, India</h6>
                 </div>
-                <div className="col-md-6 col-12 mb-3 exp-text">
-                    <h4 className='text-primary'>Frontend Developer Intern</h4>
+                <div className="col-md-8 col-12 mb-3 exp-text">
+                    <h4>Frontend Developer Intern</h4>
+                    <h5 className='text-success'>The WebPlant</h5>
                     <ul>
-                        <li>Developed responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap.</li>
-                        <li>Fetched and displayed dynamic content by integrating REST APIs into project components.</li>
-                        <li>Translated UI/UX designs into clean, interactive, and user-friendly frontend layouts.</li>
-                        <li>Delivered tasks within deadlines while ensuring performance, consistency, and code quality.</li>
+                        <li>Developed and maintained responsive, user-friendly web interfaces using React.js, HTML, CSS, JavaScript, and Bootstrap.</li>
+                        <li>Collaborated with designers and backend developers to ensure seamless integration and optimized performance.</li>
+                        <li>Customized and managed HubSpot templates, forms, and landing pages to enhance marketing workflows.</li>
+                        <li>Improved website usability and loading speed through efficient code structure and reusable UI components.</li>
                     </ul>
                 </div>
-                <div className="col-md-3 mb-3 exp-det">
-                    <h5 className='mb-5'>May 2025 - June 2025</h5>
-                    <Button href={letter} className='exp-btn'>See Credientals</Button>
-                </div>
+                
             </div>
         </div>
     </section>
