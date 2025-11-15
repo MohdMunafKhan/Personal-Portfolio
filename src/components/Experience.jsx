@@ -18,10 +18,6 @@ const Experience = () => {
         </div>
         <div className="container exp-box">
             <div className="row mx-auto">
-                <div className="col-md-4 mb-3 exp-det">
-                    <h5 className='mb-2'>Sept 2025 - Present</h5>
-                    <h6>New Delhi, India</h6>
-                </div>
                 <div className="col-md-8 col-12 mb-3 exp-text">
                     <h4>Frontend Developer Intern</h4>
                     <h5 className='text-success'>The WebPlant</h5>
@@ -32,7 +28,10 @@ const Experience = () => {
                         <li>Improved website usability and loading speed through efficient code structure and reusable UI components.</li>
                     </ul>
                 </div>
-                
+                <div className="col-md-4 mb-3 exp-det">
+                    <h5 className='mb-2'>Sept 2025 - Present</h5>
+                    <h6>New Delhi, India</h6>
+                </div>
             </div>
         </div>
     </section>
