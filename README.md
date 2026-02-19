@@ -87,7 +87,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 ## 🌐 Live Demo
 
-[🔗 View Live Portfolio](https://munaf-khan-portfolio.netlify.app/)
+[🔗 View Live Portfolio](https://munaf-portfolio.netlify.app/)
 
 ---
 
