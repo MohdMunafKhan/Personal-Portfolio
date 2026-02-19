@@ -1,31 +1,50 @@
 #  Personal Portfolio
 
-This is my personal portfolio website, showcasing my skills, projects, and experience as a frontend developer. It is a single-page responsive web app built with **React.js**. The portfolio is designed to give visitors a comprehensive overview of my technical background, interests, and key accomplishments.
+This is my personal portfolio website showcasing my skills, projects, experience, and education across Frontend Development, Data Analytics, SQL Development, and Database Administration.
+
+It is a single-page responsive web application built with React.js, designed to present both my development expertise and analytical capabilities in a structured and professional manner.
 
 ---
 
 ## 📌 Features
 
 ### 🏠 Home Page
-- Welcome banner with name, title, and a **Download CV** button.
-- Quick introduction with a smooth scroll to other sections.
+- Professional introduction with name, roles, and Download CV button
+- Smooth navigation to different sections
 
 ### 👨‍💻 About Me
-- A brief introduction about who I am, my goals, and interests.
+- Overview of my background as a Research Analyst and Developer
+- Highlights of both frontend and data-focused expertise
 
 ### 🛠️ Skills
-- A categorized list of technologies I work with:  
-  - Frontend: HTML, CSS, JavaScript, React.js, Bootstrap  
-  - Others: Git, GitHub, MySQL, APIs, etc.
+- 📊 Data Analytics & Database 
+  - MySQL
+  - Excel
+  - Python (NumPy, Pandas, Matplotlib, Seaborn)
+  - Data Cleaning & Visualization
+  - DBMS & RDBMS Concepts
+- 💻 Frontend Development
+  - HTML, CSS, JavaScript
+  - React.js
+  - Bootstrap
 
 ### 💼 Experience
-- Overview of academic background and practical work/projects.
+- Current role as Research Analyst
+- Practical exposure to data handling, analysis, and reporting
+- Hands-on development of responsive web applications
 
+### 🎓 Education
+- Master of Computer Applications (MCA)
+- Bachelor of Computer Applications (BCA)
+  
 ### 🚀 Projects
-- Highlights of my key projects with tech stack and purpose explained.
+- Frontend web applications
+- Data analysis and visualization projects
+- SQL and database-driven implementations
 
 ### 📱 Responsive Design
-- Fully responsive layout for desktop, tablet, and mobile.
+- Fully responsive layout for desktop, tablet, and mobile
+- Optimized navigation for smaller screens
 
 ---
 
@@ -79,18 +98,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 ---
 
-## 📚 Learn More
+## 🎯 Purpose of This Portfolio
+This portfolio reflects my ability to:
+- Build responsive and user-friendly web applications
+- Analyze and interpret data effectively
+- Work with SQL and database systems
+- Combine development and analytical thinking to create impactful digital solutions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).  
-To learn React, check out the [React documentation](https://reactjs.org/).
 
----
 
-## ⚙️ Additional Resources from CRA
 
-- [Code Splitting](https://facebook.github.io/create-react-app/docs/code-splitting)  
-- [Analyzing the Bundle Size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)  
-- [Making a Progressive Web App](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)  
-- [Advanced Configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)  
-- [Deployment](https://facebook.github.io/create-react-app/docs/deployment)  
-- [Troubleshooting Build Errors](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
