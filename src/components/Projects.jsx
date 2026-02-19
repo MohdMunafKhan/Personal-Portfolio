@@ -6,6 +6,8 @@ import proj2 from '../images/gearup-auto-img.png';
 import proj3 from '../images/pathshala.png';
 import proj4 from '../images/infomate-img.png';
 import proj5 from '../images/white-chillies.png';
+import proj6 from '../images/excel_dashboard.png';
+import proj7 from '../images/sql-project.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,10 +18,39 @@ const Projects = () => {
         <div className="row mx-auto mb-3">
           <div className="col-12 text-center project-head">
             <h1>My Work</h1>
-            <p>Bringing ideas to life through clean code, responsive design, and real world problem solving.</p>
+            <p className='text-danger'>Bringing ideas to life through clean code, responsive design, and real world problem solving.</p>
           </div>
         </div>
 
+        <div className="row mx-auto p-4 mb-3 project-box">
+          <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
+            <img src={proj6} alt="project-image" className='img-fluid' />
+          </div>
+          <div className="col-md-6 project-box-txt">
+            <h3 className='text-center text-primary mb-3'>Clothing Store Sales Report</h3>
+            <p className='text-center text-danger'><i>Tech Stack: Microsoft Excel (Pivot Tables, Pivot Charts, Slicers & Data Cleaning)</i></p>
+            <p>Designed an interactive dashboard to analyze sales and regional performance.</p>
+            <p>Used Pivot Tables, slicers, and dynamic charts for real-time filtering.</p>
+            <p>Automated data cleaning and created dynamic visual reports.</p>
+
+            <a href="https://github.com/MohdMunafKhan/Excel-Sales-Dashboard" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
+          </div>
+        </div>
+
+        <div className="row mx-auto p-4 mb-3 project-box">
+          <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
+            <img src={proj7} alt="project-image" className='img-fluid' />
+          </div>
+          <div className="col-md-6 project-box-txt">
+            <h3 className='text-center text-primary mb-3'>SQL Data Exploration & Analysis Project</h3>
+            <p className='text-center text-danger'><i>Tech Stack: MySQL (CTEs, Joins, Window Functions)</i></p>
+            <p>Analysed and explored the Indian Census dataset to extract key demographic insights and patterns.</p>
+            <p>Cleaned and transformed raw data using SQL queries. Conducted data aggregation and filtering to showcase population trends, literacy rates, and regional diversity.</p>
+
+            <a href="https://github.com/MohdMunafKhan/Data-Exploration-using-SQL" target='_blank'><FontAwesomeIcon icon={faLink} /></a>
+          </div>
+        </div>
+        
         <div className="row mx-auto p-4 mb-3 project-box">
           <div className="col-md-6 text-center pt-3 mb-3 project-box-img">
             <img src={proj5} alt="project-image" className='img-fluid' />

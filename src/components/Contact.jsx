@@ -15,16 +15,17 @@ const Contact = () => {
                 <div className="row mx-auto">
                     <div className="col-12 text-center">
                         <h1>Contact Me</h1>
-                        <h5>Feel free to reach out to me, if you are looking for Developer!</h5>
+                        <h5 className='text-danger'>Feel free to reach out if you're looking for a Data Analyst, Frontend Developer, SQL Developer, or Database Professional to add value to your team.</h5>
 
-                        <div className="d-flex justify-content-center align-items-center mt-4 mail-phone">
-                            <p className='me-3 mt-1'><FontAwesomeIcon icon={faEnvelope} /></p>
-                            <p>munafk512@gmail.com</p>
+                        <div className="d-flex justify-content-center align-items-center mt-4 mb-4 mail-phone">
+                            <p className='me-3 mt-1 mb-1'><FontAwesomeIcon icon={faEnvelope} /></p>
+                            <a href="mailto:munafk512@gmail.com" target='_blank' className='mb-2'>munafk512@gmail.com</a>
                         </div>
 
                         <div className="d-flex justify-content-center align-items-center mb-3 mail-phone">
                             <p className='me-3 mt-1'><FontAwesomeIcon icon={faPhone} /></p>
-                            <p>8375056468</p>
+                            <p>8375056468, 7678289044</p>
+                            
                         </div>
 
                         <h5>You may also connect with me on these platforms!</h5>

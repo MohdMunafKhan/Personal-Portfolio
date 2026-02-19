@@ -20,13 +20,15 @@ const About = () => {
                     </div>
                     <div className="col-md-6 pt-2 about-info">
                         <i className='text-primary'>Hii, I am Mohd Munaf Khan!!!</i>
-                        <p>I am a Frontend Web Developer with a strong foundation in modern web technologies and a Master of Computer Applications (MCA) degree. I specialize in building responsive, user-friendly, and visually appealing web interfaces using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, React.js, and MySQL.</p>
+                        <p>I am a Research Analyst at IP House with a Master of Computer Applications (MCA) degree and a strong foundation in both Data Analytics and Frontend Development. I work with tools such as SQL, Excel, Python, Power BI, Statistics, DBMS/RDBMS to analyze data, extract insights, and support data-driven decision-making.</p>
 
-                        <p>Currently, I am working as a Frontend Developer, where I focus on transforming ideas and designs into functional, interactive, and performance-driven web experiences. I enjoy writing clean, maintainable code and improving UI/UX through modern frameworks and best practices.</p>
+                        <p>Alongside my analytical expertise, I specialize in building responsive and user-friendly web applications using HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, and React.js. I enjoy transforming complex ideas into clean, interactive, and performance-driven digital experiences.</p>
 
-                        <p>Alongside my current role, I am actively exploring Node.js and Next.js to expand my skill set toward Full Stack Development.</p>
+                        <p>My combined skill set allows me to understand both the technical and analytical sides of product development — from data processing and visualization to frontend implementation and UI/UX optimization.</p>
 
-                        <p>I am open to exciting opportunities — both office-based and remote — where I can contribute, grow further, and build meaningful digital products that blend functionality with creativity.</p>
+                        <p>I am continuously expanding my knowledge in Node.js, Next.js, and advanced data concepts to grow toward Full Stack and Analytics-focused roles.</p>
+
+                        <p className='text-danger fw-bold'>I am open to opportunities in Data Analytics, SQL Development, DBA, MIS Executive and related roles as well as in Frontend Development where I can contribute, learn, and build impactful digital solutions.</p>
 
                         <Button href='#connect' className="contact-btn mt-4">Contact Me</Button>
                     </div>
